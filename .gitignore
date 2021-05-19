@@ -242,3 +242,7 @@ october_M1_flares.csv
 
 ### Vagrant Patch ###
 *.box
+
+# Ignore RTD conda environment changes to avoid dirty checkouts
+# See https://github.com/sunpy/sunpy/issues/5225
+rtd-environment.yml
